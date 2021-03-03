@@ -1,0 +1,22 @@
+{
+  "Target": {
+    "Home": "https://www.gamenerdz.com",
+    "Cart": "https://www.gamenerdz.com/cart.php",
+    "CheckOut": "https://www.gamenerdz.com/checkout"
+  },
+  "Recaptcha": {
+    "siteKey": "6LccmasUAAAAAIRhScC9asOrH_rQblw06weNOzDI"
+  },
+  "_2Captcha": {
+    "apiKey": "7e46df056ec8ef506643bfb1c424301e"
+  },
+  "ProxySetting": {
+    "enabled": true
+  },
+  "Browser" : {
+    "UserAgents": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+    ],
+    "headless": true
+  }
+}

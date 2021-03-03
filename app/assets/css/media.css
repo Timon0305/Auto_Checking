@@ -1,0 +1,227 @@
+@media only screen and (max-width: 768px) {
+  .auth-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .auth-box input {
+    width: 100%;
+  }
+
+  .activate-btn {
+    padding: 5px 30px;
+  }
+
+  .right-btns {
+    right: 10px;
+    top: 5px;
+    font-size: 12px;
+  }
+
+  .task-count, .entry-count, .acc-count {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+  }
+
+  .task-count h4, .entry-count h4, .acc-count h4, .setting-title h4 {
+    font-size: 18px;
+  }
+
+  .mt-40 {
+    margin-top: 0;
+  }
+
+
+  .search-box {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .form-control.pl {
+    width: 100%;
+    padding-left: 35px;
+  }
+
+  .search-box button {
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  .my-40 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .search-row .flex-align-center {
+    display: block;
+  }
+
+  .nav {
+    font-size: 12px;
+  }
+
+  .nav a.active {
+    background-color: #FF6592;
+    padding: 5px;
+  }
+
+  .table {
+    font-size: 12px;
+    margin-bottom: 100px;
+  }
+
+  /* .table tr:nth-of-type(odd) > td:first-child span, .table tr:nth-of-type(even) > td:first-child span{width: 25px;height: 25px; line-height: 25px;} */
+  .table > tbody > tr > td, .table > tbody > tr > th, .table > thead > tr > th {
+    white-space: nowrap;
+  }
+
+  .col-6 {
+    width: 100% !important;
+  }
+
+  .add-task span, .delete-task span, .start-task span, .pause-task span, .filter-success span, .delete-l span, .create-acc span, .delete-acc span, .save-set span, .reset-set span {
+    margin-left: 0;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .add-task, .delete-task, .start-task, .pause-task, .filter-success, .delete-l, .create-acc, .delete-acc, .save-set, .reset-set {
+    font-size: 10px;
+    text-align: center;
+    margin: 0 8px;
+  }
+
+  .plus-btn, .delete-btn, .play-btn, .pause-btn, .fil-success-btn, .delete-l-btn, .create-acc-btn, .delete-acc-btn, .save-set-btn, .reset-set-btn {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  /* Account page CSS */
+  .right-table {
+    width: 100%;
+    padding: 0;
+    min-height: 100px;
+  }
+
+  .acc-main-row.d-flex {
+    display: block !important;
+  }
+
+  .left-form {
+    padding: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .acc-main-row .form-control {
+    width: 100%;
+  }
+
+  .notification.flex-align-center {
+    display: block;
+  }
+
+  .notification i {
+    width: 28px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    display: inline-table;
+  }
+
+  .notification span, .left-form label, .acc-main-row .form-control {
+    font-size: 12px;
+  }
+
+  /* Setting page CSS */
+  .setting-title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+  }
+
+  .setting h4 {
+    font-size: 18px;
+  }
+
+  .setting-main-row.d-flex {
+    display: block !important;
+  }
+
+  .logs-wrapper {
+    padding-bottom: 100px;
+  }
+
+  /* Create Task Popup CSS */
+  .create-task .flex-align-top {
+    display: block;
+  }
+
+  .accounts-list-box {
+    min-height: auto;
+  }
+
+  .task-create-left {
+    margin-bottom: 30px;
+  }
+
+  .add-task.popup span {
+    margin-left: 10px;
+    margin-top: 0
+  }
+
+  .create-task {
+    width: 90% !important;
+  }
+
+  .notification.flex-align-top {
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .notification.flex-align-top.mobile {
+    align-items: flex-start !important;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+  .notification.flex-align-center {
+    display: flex;
+  }
+
+  /* .left-form{width: 90%; } */
+  .create-task {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .left-form {
+    width: 90%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .j-container {
+    max-width: 96%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .auth-box {
+    padding: 50px;
+  }
+
+  .form-control {
+    height: calc(1.5em + .75rem + 10px);
+  }
+}

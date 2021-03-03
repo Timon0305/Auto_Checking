@@ -1,0 +1,9 @@
+.drag-region {
+    position: absolute;
+    top: 0;
+    right: 80px;
+    height: 80px;
+    background: transparent;
+    width: 100%;
+    -webkit-app-region: drag;
+}
